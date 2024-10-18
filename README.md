@@ -2,7 +2,7 @@
 
 **grid layout**
 
-![viewfinal](![img](https://github.com/user-attachments/assets/84806876-487d-4fb3-b053-4be4c0304120)
+(![img](https://github.com/user-attachments/assets/84806876-487d-4fb3-b053-4be4c0304120)
 
 
 
