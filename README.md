@@ -19,4 +19,4 @@
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/mahsa.developer) and [linkedin](https://www.linkedin.com/in/mahsa.developer_)
+- How to reach me : with my [instagram](https://www.instagram.com/mahsa.developer) and [linkedin](https://www.linkedin.com/in/mahsa.developer-)
