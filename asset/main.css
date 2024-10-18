@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 240px);
+    grid-template-rows: repeat(5, 350px);
+    justify-content: center;
+    align-content: center;
+    /* background-color: #65097c; */
+    gap: 50px 25px;
+    margin-top: 200px;
+
+    >* {
+        border: 1px solid red;
+        /* background-color: #1106a3; */
+        font-family: athelas, georgia, serif;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+       
+    }
+
+    >header {
+        border: none;
+        grid-column: 1 / span 2;
+        background-color: #fff;
+
+        >div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            margin: 0px 0;
+            /* border: 2px solid; */
+
+            >h1 {
+                /* border: 2px solid; */
+                width: fit-content;
+                font-size: 54px;
+                margin-top: 5px;
+
+            }
+
+            >p {
+                /* border: 2px solid; */
+                margin-top: 80px;
+                font-size: 20px;
+            }
+
+            >div {
+                display: flex;
+                margin-top: 110px;
+                transition: .4s ease-in-out;
+
+                &:hover {
+                    scale: 1.1;
+                    /* transition: .4s ease-in-out; */
+                }
+
+                >a {
+                    text-decoration: none;
+                    /* border: 3px solid; */
+                    padding: 20px;
+                    background-color: rgb(230, 190, 191);
+                    color: #fff;
+                    font-size: 20px;
+                    border-radius: 5px;
+                    /* transition: 1s ease-in-out; */
+
+                }
+            }
+
+        }
+
+
+        >h1 {
+            border: 2px solid;
+        }
+
+        >p {
+            border: 2px solid;
+        }
+
+
+    }
+
+
+    >div {
+
+        &:nth-of-type(1) {
+            background-image: url(img/1.jpg);
+            object-fit: cover;
+            background-size: cover;
+            grid-column: 3 / span 2;
+            grid-row: 1/ span 2;
+            border: none;
+        }
+
+        &:nth-of-type(2) {
+            background-image: url(img/2.jpg);
+            background-size: cover;
+            border: none;
+        }
+
+        &:nth-of-type(3) {
+            background-image: url(img/3.jpg);
+            background-size: cover;
+            border: none;
+        }
+        &:nth-of-type(4) {
+            background-image: url(img/4.jpg);
+            background-size: cover;
+            border: none;
+        }
+        &:nth-of-type(5) {
+            background-image: url(img/5.jpg);
+            background-size: cover;
+            border: none;
+        }
+        &:nth-of-type(6) {
+            background-image: url(img/6.jpg);
+            background-size: cover;
+            border: none;
+        }
+        &:nth-of-type(7) {
+            background-image: url(img/7.jpg);
+            background-size: cover;
+            border: none;
+            grid-row: 4/ span 2;
+            grid-column: 1/ span 2;
+        }
+        &:nth-of-type(8) {
+            background-image: url(img/8.jpg);
+            background-size: cover;
+            border: none;
+           
+        }
+        &:nth-of-type(9) {
+            background-image: url(img/9.jpg);
+            background-size: cover;
+            border: none;
+           
+        }
+        &:nth-of-type(10) {
+            background-image: url(img/10.jpg);
+            background-size: cover;
+            border: none;
+           
+        }
+        &:nth-of-type(11) {
+            background-image: url(img/11.jpg);
+            background-size: cover;
+            border: none;
+            
+        }
+
+
+
+    }
+
+    >h2{
+        text-align: left;
+        padding: 90px 30px;
+        font-size: 29px;
+        background-color: rgb(119,119,119);
+        color: #fff;
+        border: none;
+        
+       
+        
+    }
+
+
+
+}
